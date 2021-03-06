@@ -1,87 +1,90 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="description" content="Demo flexbox">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
-  <link rel="stylesheet" href="contact.css">
-  <title>JS Bin</title>
-</head>
-<body>
+    <head>
+        <meta name="description" content="Demo flexbox" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+        <link rel="stylesheet" href="contact.css" />
+        <title>JS Bin</title>
+    </head>
+    <body>
+        <h1 class="contact_form">Contact form #</h1>
+        <div class="final">
+            <div class="plan">
+                <div class="title">
+                    <h1>Let's get in touch</h1>
+                    <div>We're open for any suggestion or just to have a chat</div>
+                </div>
 
-    <h1 class="contact_form">Contact form # </h1>
-    <div class="final">
-      
-    <div class="plan">
-        <div class="title">
-      <h1>Let's get in touch</h1>
-      <div>We're open for any suggestion or just to have a chat</div>
-         </div>
+                <div class="logo">
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <span>Adress</span>: 198 West 21 th Street,
+                            <div>Suite 721 New York NY 10016</div>
+                        </div>
+                    </div>
+                    <div class="tel">
+                        <i class="fas fa-phone-alt"></i>
+                        <div><span>Phone</span>: +1235 2544 98</div>
+                    </div>
 
-    <div class="logo">
-      
-        <div class="location">
-           <i class="fas fa-map-marker-alt"></i>
-            <div><span>Adress</span>: 198 West 21 th Street,
-            <div>Suite 721 New York NY 10016</div> </div>
+                    <div class="email">
+                        <i class="far fa-paper-plane"></i>
+                        <div><span>Email</span>: mk@bogoss.com</div>
+                    </div>
+
+                    <div class="site">
+                        <i class="fas fa-globe-asia"></i>
+                        <div><span>Website</span>: bogoss.com</div>
+                    </div>
+                </div>
+            </div>
+            <form>
+                <div class="formulaire">
+                    <h1 class="titre">Get in touch</h1>
+                    <div class="name_email">
+                        <div class="name">
+                            <div class="full_name">
+                                <h5>FULL NAME</h5>
+                                <label for="Name"></label>
+                                <input type="Name" name="Name" size="30" maxlength="40" value="Name" id="Name" />
+                            </div>
+                        </div>
+                        <div class="email1">
+                            <div class="email_address">
+                                <h5>EMAIL ADRESS</h5>
+                                <label for="email"></label>
+                                <input type="Email" name="Email" size="30" maxlength="40" value="Email" id="email" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="subject1">
+                            <h5>SUBJECT</h5>
+                            <label for="Subject"></label>
+                            <input
+                                type="Subject"
+                                name="subject"
+                                size="80"
+                                maxlength="40"
+                                value="Subject"
+                                id="Subject"
+                            />
+                        </div>
+                    </div>
+                    <div class="mess">
+                        <h5>MESSAGE</h5>
+
+                        <label for="msg">Message</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                        <div class="button">
+                            <button type="submit">Envoyer le message</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
-       <div class="tel">
-            <i class="fas fa-phone-alt"></i>
-            <div><span>Phone</span>: +1235 2544 98</div>
-        </div>
-      
-        <div class="email">
-            <i class="far fa-paper-plane"></i>
-            <div><span>Email</span>: mk@bogoss.com</div>
-        </div>
-      
-        <div class="site">
-           <i class="fas fa-globe-asia"></i>
-            <div><span>Website</span>: bogoss.com</div>
-        </div>
-    </div>
-  </div>
-  <form>
-    <div class="formulaire">
-      <h1 class="titre">Get in touch</h1>
-      <div class="name_email">
-    <div class="name">
-      <div class="full_name">
-      <h5>FULL NAME</h5>
-        <label for="Name"></label>
-   <input type="Name" name="Name" size="30" 
-   maxlength="40" value="Name" id="Name" />
-    </div>
-  </div>
-  <div class="email1">
-    <div class="email_address">
-    <h5>EMAIL ADRESS</h5>
-      <label for="email"></label>
- <input type="Email" name="Email" size="30" 
- maxlength="40" value="Email" id="email" />
-  </div>
-</div>
-</div>
-<div class="subject">
-  <div class="subject1">
-  <h5>SUBJECT</h5>
-    <label for="Subject"></label>
-<input type="Subject" name="subject" size="80" 
-maxlength="40" value="Subject" id="Subject" />
-</div>
-</div>
-<div class="mess">
-  <h5>MESSAGE</h5>
-  
-  <label for="msg">Message</label>
-  <textarea id="msg" name="user_message"></textarea>
-  <div class="button">
-    <button type="submit">Envoyer le message</button>
-  </div>
-</div>
-</div>
-</form>
- </div>
-</body>
+    </body>
 </html>
