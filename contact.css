@@ -1,118 +1,116 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
- }
- body{
+}
+body {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     flex-direction: column;
-    background: #FAFAFA;
+    background: #fafafa;
     /**border: solid 1px black;**/
- }
-  .contact_form{
-     text-align: center;
-     /**border: solid 1px black;**/
-     height: 100px;
-  }
+}
+.contact_form {
+    text-align: center;
+    /**border: solid 1px black;**/
+    height: 100px;
+}
 
-  .final{
-     width:1040px;
-  }
+.final {
+    width: 1040px;
+}
 
- .plan{
-     
-    width: 340px; 
-    height: 520px; 
+.plan {
+    width: 340px;
+    height: 520px;
     background: rgb(92, 206, 147);
     color: white;
- }
+}
 
- div.title{
+div.title {
     position: relative;
     width: 250px;
     margin: 1px auto;
-    top:70px;
- }
+    top: 70px;
+}
 
- .logo{
-   /**border: solid 1px black;**/
+.logo {
+    /**border: solid 1px black;**/
     margin: 120px auto;
-    width: 300px; 
-    height: 300px; 
+    width: 300px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     top: 20%;
+}
 
- }
-
- .location,.tel,.site,.email{
-    display:flex;
-    justify-content:space-evenly;
+.location,
+.tel,
+.site,
+.email {
+    display: flex;
+    justify-content: space-evenly;
     /**border: solid 1px black;**/
-    padding:20px;
-         
- }
-h1.titre{
-   padding: 10% 7%;
-   height: 10px;
-   color:black;
+    padding: 20px;
+}
+h1.titre {
+    padding: 10% 7%;
+    height: 10px;
+    color: black;
 }
 
-h5{
-   color:black;
+h5 {
+    color: black;
 }
 
-input{
-   border:none;
-   outline: none;
-   border-bottom: 1px solid #F2F2F2;
+input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #f2f2f2;
 }
 
-div.name_email{
-   display:flex;
-   justify-content: space-around;
+div.name_email {
+    display: flex;
+    justify-content: space-around;
 }
 
-div.final{
-   display:flex;  
+div.final {
+    display: flex;
 }
 
-div.formulaire{
-   background: white;
-   width:700px; 
-   height: 520px; 
+div.formulaire {
+    background: white;
+    width: 700px;
+    height: 520px;
 }
 
-div.subject{
-   display:flex;
-   justify-content: left;
-   padding: 5% 7%;
-   height: 80px;
+div.subject {
+    display: flex;
+    justify-content: left;
+    padding: 5% 7%;
+    height: 80px;
 }
-.mess{
-   display:flex;
-   flex-direction: column;
-   padding: 5% 7%;
+.mess {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 7%;
 }
-textarea{
-   height: 80px;
-      border:none;
-      outline: none;
-      border-bottom: 1px solid #F2F2F2;
+textarea {
+    height: 80px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #f2f2f2;
 }
-button{
-   margin:5% 0 ;
-   padding: 1em;
-   background: rgb(92, 206, 147);
+button {
+    margin: 5% 0;
+    padding: 1em;
+    background: rgb(92, 206, 147);
     color: white;
     border-radius: 5%;
     border: transparent;
 }
-label{
-   color:#aca6a6;
+label {
+    color: #aca6a6;
 }
-
-
